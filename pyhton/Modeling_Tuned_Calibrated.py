@@ -168,4 +168,4 @@ print("Brier score RF Isotonic       :", brier_iso)
 print("AUC RF Platt :", roc_auc_score(y_test, y_proba_platt))
 print("AUC RF Iso   :", roc_auc_score(y_test, y_proba_iso))
 
-print("\n✅ Modelado tuneado + calibración COMPLETO.")
+print("\n Modelado tuneado + calibración COMPLETO.")

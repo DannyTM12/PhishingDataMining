@@ -91,5 +91,5 @@ else:
 print("Generando SHAP summary plot...")
 shap.summary_plot(shap_values[1], X_test, show=False)
 
-print("\n✅ Interpretabilidad COMPLETA.")
+print("\nInterpretabilidad COMPLETA.")
 print(" - Archivo guardado: Feature_Importance_RF.csv")
